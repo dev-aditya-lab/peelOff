@@ -30,7 +30,7 @@ export default function NotFoundPage() {
           Oops! Page Not Found
         </motion.h1>
         <p className="text-gray-500 max-w-md">
-          Looks like you took a wrong turn. The page you're looking for doesn’t exist or has been moved.
+          Looks like you took a wrong turn. The page you're looking for doesnt exist or has been moved.
         </p>
         <Link href="/">
           <Button className="mt-4">Go Home</Button>
