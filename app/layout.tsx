@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import MyNavbar from "./MyComponents/MyNavbar";
 import FooterSection from "./MyComponents/Sections/FooterSection";
 
-
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Peel Off",
