@@ -23,7 +23,9 @@ export default function RootLayout({
       <body
         className={cn("min-h-screen bg-white font-sans antialiased")}>
           <MyNavbar/>
+          <Analytics/>
         {children}
+
         <FooterSection/>
       </body>
     </html>
